@@ -1,0 +1,129 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navigation {
+    position: fixed;
+    height: 50px;
+    right: 0;
+    left: 0;
+    background-color: #333;
+    box-sizing: border-box;
+}
+
+.navigation h5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    font-size: 20px;
+}
+
+ul {
+    position: relative;
+    height: 70px;
+    left: 1000px;
+}
+
+li {
+    display: inline-block;
+    margin-left: 25px;
+    width: 90px;
+    height: 40px;
+    padding-top: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+a {
+    color: #fff;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+body {
+    background-image: url(nano.jpg);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    background-size: cover;
+}
+
+/* Blurred box styles */
+.blurred-box {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    max-width: 700px;
+    margin-top: 10%;
+    margin-left: 10%;
+    text-align: center;
+    color: white;
+}
+
+.blurred-box .header h1 {
+    font-size: 60px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 20px;
+}
+
+/* Card styles */
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: justify;
+    color: black;
+    margin-top: 20px;
+}
+
+.card .des {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.7;
+}
+
+.card .des a img {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
