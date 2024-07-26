@@ -262,8 +262,8 @@ a {
     font-size: 50px;
     font-weight: 600;
     color: black;
-
-
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 .about-section p {
